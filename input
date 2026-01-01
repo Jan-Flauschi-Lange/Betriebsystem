@@ -1,0 +1,10 @@
+def user_interface():
+    print("1. Statik-Status prüfen")
+    print("2. ROM / Programm injizieren (0±X Kopplung)")
+    print("3. System-Stabilität nach Kapitel 161")
+    
+    wahl = input("Wahl der Statik: ")
+    if wahl == "2":
+        file = input("Dateipfad der ROM: ")
+        print(f"Initialisiere {file} im statischen Raum...")
+        # Hier koppelt der Kernel die Datei an deinen Algorithmus
